@@ -1,5 +1,6 @@
 import {FiGithub, FiLinkedin, FiDownload} from "react-icons/fi";
 import {motion} from "framer-motion";
+import hero from "../assets/hero.png";
 function Hero(){
     return(
     <section id="home" className="hero">
@@ -37,11 +38,11 @@ function Hero(){
         </div>
 
         <div className="hero-socials">
-          <a href="#" target="_blank" rel="noreferrer" aria-label="GitHub">
+          <a href="https://github.com/kesavansundar" target="_blank" rel="noreferrer" aria-label="GitHub">
             <FiGithub/>
           </a>
 
-          <a href="#" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/in/kesavan-sundarapandiyan-538887415/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
             <FiLinkedin/>
           </a>
         </div>
@@ -49,7 +50,7 @@ function Hero(){
       </motion.div>
                   <div className="hero-image">
                 <div className="profile-circle">
-                    KS 
+                  <img src={hero} alt="Profile" />
                 </div>
             </div>
 
