@@ -1,5 +1,8 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import About from './components/About';
+import Skills from './components/Skills';
+import Projects from './components/Projects';
 import './App.css';
 function App(){
     return(
@@ -7,15 +10,9 @@ function App(){
         <Navbar/>
         
         <Hero/>
-          <section id='about'>
-            <h1>About</h1>
-          </section>
-          <section id='skills'>
-            <h1>Skills</h1>
-          </section>
-          <section id='project'>
-            <h1>Project</h1>
-          </section>
+        <About/>
+        <Skills/>
+        <Projects/>
           <section id='education'>
             <h1>Education</h1>
           </section>
