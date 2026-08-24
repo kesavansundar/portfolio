@@ -22,7 +22,7 @@ function Contact() {
     emailjs
       .sendForm(
         "service_dmawmnm",
-        "YOUR_TEMPLATE_ID",
+        "template_fesm69p",
         form.current,
         {
           publicKey: "DDO2TGLo8D4G9v7DP",
