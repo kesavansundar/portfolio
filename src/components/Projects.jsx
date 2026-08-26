@@ -4,6 +4,7 @@ import {
   FiArrowUpRight,
 } from "react-icons/fi";
 import { motion } from "framer-motion";
+import portfolio from '../assets/portfolio.png';
 
 function Projects() {
   const projects = [
@@ -26,10 +27,10 @@ function Projects() {
       category: "Frontend Development",
       description:
         "A modern personal portfolio website built to showcase my skills, projects, education and professional journey.",
-      image: "/projects/portfolio.png",
+      image: portfolio,
       technologies: ["React", "JavaScript", "CSS", "Framer Motion"],
-      github: "https://github.com/",
-      live: "#",
+      github: "https://github.com/kesavansundar/portfolio",
+      live: "kesavansundar.netlify.app",
       featured: false,
     },
 
