@@ -35,6 +35,15 @@ function Hero(){
           <a href="#contact" className="btn secondary-btn">
             Contact Me
           </a>
+
+          <a
+            href="/resume.pdf"
+            download="Kesavan-Sundarpandiyan-Resume.pdf"
+            className="btn resume-btn"
+          >
+            <FiDownload />
+            Download Resume
+          </a>
         </div>
 
         <div className="hero-socials">
