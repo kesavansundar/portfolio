@@ -5,22 +5,30 @@ import {
 } from "react-icons/fi";
 import { motion } from "framer-motion";
 import portfolio from '../assets/portfolio.png';
+import Ecommerce from '../assets/Ecommerce.png';
 
 function Projects() {
   const projects = [
     {
       number: "01",
-      title: "Learning Management System",
-      category: "Full Stack Web Application",
+      title: "ShopHub E-Commerce Website",
+      category: "Full Stack Development",
       description:
-        "A learning platform where students can access courses, practice questions, complete tasks and manage their learning activities.",
-      image: "/projects/lms.png",
-      technologies: ["React", "Node.js", "Express", "MongoDB"],
-      github: "https://github.com/",
-      live: "#",
-      featured: true,
+        "A full-stack e-commerce website with user authentication, product browsing, category filtering, wishlist and shopping cart features.",
+      image: Ecommerce,
+      technologies: [
+        "React",
+        "Node.js",
+        "Express.js",
+        "MySQL",
+        "JWT",
+        "Vercel",
+        "Render",
+      ],
+      github: "https://github.com/kesavansundar/ecommerce-project",
+      live: "https://ecommerce-project-livid-eight.vercel.app",
+      featured: false,
     },
-
     {
       number: "02",
       title: "Portfolio Website",
@@ -30,7 +38,7 @@ function Projects() {
       image: portfolio,
       technologies: ["React", "JavaScript", "CSS", "Framer Motion"],
       github: "https://github.com/kesavansundar/portfolio",
-      live: "kesavansundar.netlify.app",
+      live: "https://kesavansundar.netlify.app/",
       featured: false,
     },
 
